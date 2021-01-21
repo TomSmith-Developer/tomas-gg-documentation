@@ -10,7 +10,7 @@ We plan to add more helpful resources in the future such as a IP address lookup 
 - Added Triple Radio
 - Added versioning number to all routes
 - Deprecated documentation on the main route
-- Removed `https://tomas.gg/api/radios`
+- Removed `https://tomas.gg/api/radio`
 
 ## Radio Statistics
 
