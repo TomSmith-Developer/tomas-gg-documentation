@@ -345,3 +345,90 @@ Such route will output the following data:
   "version": "<current version number>"
 }
 ```
+
+### Paradise
+
+Music from Paradise. [itsparadise.net](https://itsparadise.net/?utm_source=tomas.gg)
+
+To review Paradise's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=itsparadise
+```
+
+Such route will output the following data:
+```
+{
+  "live": {
+    "name": null,
+    "avatar": "No Data"
+  },
+  "listeners": {
+    "total": null,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": null,
+    "title": null,
+    "cover": null
+  },
+  "version": "<current version number>"
+}
+```
+
+### Simulator Hits
+
+Simulator Hits, your number one hit Simulation Radio Station. [simulatorhits.com](https://simulatorhits.com/?utm_source=tomas.gg)
+
+To review Simulator Hits' statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=simulatorhits
+```
+
+Such route will output the following data:
+```
+{
+  "live": {
+    "name": "AutoDJ",
+    "avatar": "https://panel.simulatorhits.com/img/SH_Logo.jpg"
+  },
+  "listeners": {
+    "total": 113,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "Ava Max",
+    "title": "Kings & Queens",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2739a95e89d24214b94de36ccf7"
+  },
+  "version": "<current version number>"
+}
+```
+
+### Triple Radio
+
+Triple Radio is a small online radio station to power your music needs whenever they are required. [tripleradio.net](https://tripleradio.net/?utm_source=tomas.gg)
+
+To review Triple Radio's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=tripleradio
+```
+
+Such route will output the following data:
+```
+{
+  "live": {
+    "name": "Auto DJ",
+    "avatar": "No Data"
+  },
+  "listeners": {
+    "total": 1,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "Lady Gaga",
+    "title": "Lady Gaga - 911",
+    "cover": "https://cdns-images.dzcdn.net/images/cover/81572deeede9e5f691e4b1889b828197/500x500-000000-80-0-0.jpg"
+  },
+  "version": "<current version number>"
+}
+```
