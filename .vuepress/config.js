@@ -14,7 +14,12 @@ module.exports = {
             { text: 'API', link: 'https://api.tomas.gg' },
             { text: 'GitHub', link: 'https://github.com/TomSmith-Developer'}
         ],
-        sidebar: "auto"
+        sidebar: {
+            '/guide/': [
+                '',
+                'tripleradio'
+            ]
+        }
     },
     dest: 'public',
 }

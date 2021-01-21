@@ -16,6 +16,17 @@ We plan to add more helpful resources in the future such as a IP address lookup 
 
 Tomas.GG has combined all the well-known web-radios and made one API to display all the data. We have a combined route and singular route for all radios.
 
+Below you can find a list of the current radios on the API:
+- Aqua
+- KeyFM
+- Simulator Radio
+- Simulation
+- UpBeat
+- Livida
+- Paradise
+- Simulator Hits
+- Triple Radio
+
 ### All Statistics
 
 To view all the radios and their statistics, you need to make a `GET` request to the following route:
