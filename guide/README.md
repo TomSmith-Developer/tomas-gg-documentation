@@ -25,9 +25,6 @@ https://api.tomas.gg/controller?radio=all
 
 Such route will output the following data:
 ```
-// 20210121143505
-// https://api.tomas.gg/controller?radio=all
-
 {
   "aqua": {
     "live": {
