@@ -168,9 +168,6 @@ Such route will output the following data:
 }
 ```
 
-### Individual Radio Statistics
-
-Below you will be able to find all the routes for individual radio statistics.
 
 ### Aqua
 
