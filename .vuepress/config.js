@@ -8,5 +8,6 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/TomSmith-Developer'}
         ],
         sidebar: "auto"
-    }
+    },
+    dest: 'public',
 }
