@@ -287,3 +287,61 @@ Such route will output the following data:
   "version": "<current version number>"
 }
 ```
+
+### UpBeat
+
+UpBeat is a community powered online radio, providing 24/7 ad-free radio entertainment. [upbeatradio.net](https://upbeatradio.net/?utm_source=tomas.gg)
+
+To review UpBeats's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=upbeat
+```
+
+Such route will output the following data:
+```
+{
+  "live": {
+    "name": "Hayleigh",
+    "avatar": "https://upbeatradio.net/staff/_assets/_avatarImages/avatar_3799.png?1610294965"
+  },
+  "listeners": {
+    "total": 54,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "The Vapors",
+    "title": "Turning Japanese",
+    "cover": "https://i.scdn.co/image/ab67616d00001e0260e594fd9a41134979feab3d"
+  },
+  "version": "<current version number>"
+}
+```
+
+### Livida
+
+The online community for gamers. [livida.net](https://livida.net/?utm_source=tomas.gg)
+
+To review Livida's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=livida
+```
+
+Such route will output the following data:
+```
+{
+  "live": {
+    "name": "AutoDJ",
+    "avatar": "https://s3.livida.net/images/logo/CrownIcon.png"
+  },
+  "listeners": {
+    "total": 0,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "Harry Styles",
+    "title": "Golden",
+    "cover": "https://e-cdns-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/250x250-000000-80-0-0.jpg"
+  },
+  "version": "<current version number>"
+}
+```
