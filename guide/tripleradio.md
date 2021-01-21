@@ -57,9 +57,6 @@ Returns:
 ```
 
 `GET` **/playingnext** - Displays the next song that will be played on **Auto DJ**.
-
-**Note:** This route will only function if the DJ is **Auto DJ**, if it a live DJ a `405 - Method not allowed` error will occur.
-
 Returns:
 ```
 {
@@ -73,3 +70,7 @@ Returns:
   }
 }
 ```
+
+::: warning
+This route will only function if the DJ is **Auto DJ**, if it is a live DJ a `405 - Method not allowed` error will occur.
+:::

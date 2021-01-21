@@ -27,6 +27,10 @@ Below you can find a list of the current radios on the API:
 - Simulator Hits
 - Triple Radio
 
+::: tip
+If our API is returning `null` or simply not loading, report it to **Tom.#7945** on Discord!
+:::
+
 ### All Statistics
 
 To view all the radios and their statistics, you need to make a `GET` request to the following route:
