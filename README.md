@@ -7,5 +7,3 @@ actionText: Get Started →
 actionLink: /guide/
 footer: Tomas Smith | © 2021 All Rights Reserved.
 ---
-
-<ToggleDarkMode/>

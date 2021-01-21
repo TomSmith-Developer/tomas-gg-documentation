@@ -7,6 +7,8 @@ module.exports = {
         ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "https://api.slushie.gg/avatar/683781987726917663?size=256"}],
       ],
     themeConfig: {
+        smoothScroll: true,
+        lastUpdated: 'Last Updated',
         nav: [
             { text: 'Website', link: 'https://tomas.gg'},
             { text: 'API', link: 'https://api.tomas.gg' },
