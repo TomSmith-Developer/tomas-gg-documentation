@@ -56,13 +56,13 @@ Such route will output the following data:
       "avatar": "https://cdn.itsaqua.net/logo.png"
     },
     "listeners": {
-      "total": 7,
+      "total": 3,
       "unique": null
     },
     "nowplaying": {
-      "artist": "Just Kiddin",
-      "title": "When You Say It",
-      "cover": "https://cdn.itsaqua.net/ext/https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2Fed665ce01129260a5203368180643e8d%2F1000x1000-000000-80-0-0.jpg"
+      "artist": "Breathe Carolina; Dropgun; Reigns",
+      "title": "Promises (feat. Reigns)",
+      "cover": "https://cdn.itsaqua.net/ext/https%3A%2F%2Fcdns-images.dzcdn.net%2Fimages%2Fcover%2Fee891eee78b18687525bea891ac740ba%2F1000x1000-000000-80-0-0.jpg"
     }
   },
   "keyfm": {
@@ -71,18 +71,18 @@ Such route will output the following data:
       "avatar": "No Data"
     },
     "listeners": {
-      "total": 11,
+      "total": 9,
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "The Wombats",
-      "title": "Kill the Director",
+      "artist": "Sia",
+      "title": "Snowman",
       "cover": "No Data"
     }
   },
   "simulatorradio": {
     "live": {
-      "name": "RICHIΞ",
+      "name": "Joe",
       "avatar": "No Data"
     },
     "listeners": {
@@ -90,9 +90,9 @@ Such route will output the following data:
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "Duke Dumont",
-      "title": "I Got U",
-      "cover": "https://i.scdn.co/image/ab67616d00001e02e197a220029b6b6945ae0426"
+      "artist": "Avicii",
+      "title": "The Days",
+      "cover": "https://i.scdn.co/image/ab67616d0000b2730ae4f4d42e4a09f3a29f64ad"
     }
   },
   "simulation": {
@@ -101,28 +101,28 @@ Such route will output the following data:
       "avatar": "No Data"
     },
     "listeners": {
-      "total": 1,
-      "unique": 1
+      "total": 0,
+      "unique": 0
     },
     "nowplaying": {
-      "artist": "Bruno Mars; Cardi B",
-      "title": "Bruno Mars; Cardi B - Finesse (Remix; feat. Cardi B)",
-      "cover": "https://simulation.stream/api/station/1/art/204e99223adccedb122610ea-1602011471.jpg"
+      "artist": "Don Diablo; Andy Grammer",
+      "title": "Don Diablo; Andy Grammer - Thousand Faces",
+      "cover": "https://simulation.stream/api/station/1/art/56c15779296eaad425e45607-1602014175.jpg"
     }
   },
   "upbeat": {
     "live": {
-      "name": "Hayleigh",
-      "avatar": "https://upbeatradio.net/staff/_assets/_avatarImages/avatar_3799.png?1610294965"
+      "name": "Unforgiveable",
+      "avatar": "https://upbeatradio.net/staff/_assets/_avatarImages/avatar_3815.png?1610033042"
     },
     "listeners": {
-      "total": 49,
+      "total": 89,
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "The Rolling Stones",
-      "title": "Paint It Black",
-      "cover": "https://upbeatradio.net/staff/_assets/_avatarImages/default/default.png"
+      "artist": "Katy Perry",
+      "title": "Dark Horse (Feat. Juicy J)",
+      "cover": "https://i.scdn.co/image/ab67616d00001e02ba1f67115a224849c97bfc06"
     }
   },
   "livida": {
@@ -135,24 +135,24 @@ Such route will output the following data:
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "The Kid Laroi",
-      "title": "SO DONE",
-      "cover": "https://e-cdns-images.dzcdn.net/images/cover/7fc8cf1552789112af08d68807e43682/250x250-000000-80-0-0.jpg"
+      "artist": "Bad Bunny",
+      "title": "LA NOCHE DE ANOCHE",
+      "cover": "https://cdns-images.dzcdn.net/images/cover/6ea80078f0df08737a7471f3c4cf2afa/250x250-000000-80-0-0.jpg"
     }
   },
-  "itsparadise": {
+  "harmony": {
     "live": {
-      "name": null,
-      "avatar": "No Data"
+      "name": "AutoDJ",
+      "avatar": "https://harmony.sirv.com/default.png"
     },
     "listeners": {
-      "total": null,
+      "total": 2,
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": null,
-      "title": null,
-      "cover": null
+      "artist": "The Chainsmokers/Louane",
+      "title": "It Won't Kill Ya (feat. Louane)",
+      "cover": "https://cdns-images.dzcdn.net/images/cover/d4451405fea03536f6788fa806045141/1000x1000-000000-80-0-0.jpg"
     }
   },
   "simulatorhits": {
@@ -161,13 +161,13 @@ Such route will output the following data:
       "avatar": "https://panel.simulatorhits.com/img/SH_Logo.jpg"
     },
     "listeners": {
-      "total": 69,
+      "total": 117,
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "Ritt Momney",
-      "title": "Put Your Records On",
-      "cover": "https://i.scdn.co/image/ab67616d0000b273d52d8eb3be188231e120dbbd"
+      "artist": "Drake",
+      "title": "Laugh Now Cry Later (feat. Lil Durk)",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27352c75ed37313b889447011ef"
     }
   },
   "tripleradio": {
@@ -176,16 +176,46 @@ Such route will output the following data:
       "avatar": "No Data"
     },
     "listeners": {
-      "total": 1,
+      "total": "0",
       "unique": "No Data"
     },
     "nowplaying": {
-      "artist": "Ed Sheeran/Chance the Rapper/PnB Rock",
-      "title": "Ed Sheeran/Chance the Rapper/PnB Rock - Cross Me (feat. Chance the Rapper & PnB Rock)",
-      "cover": "https://cdns-images.dzcdn.net/images/cover/53c94ac88c0ef5b16eff89d5096250b9/500x500-000000-80-0-0.jpg"
+      "artist": "The Killers",
+      "title": "The Killers - Mr. Brightside",
+      "cover": "https://cdns-images.dzcdn.net/images/cover/bc4c351b5380ad64b1dbf631185714e3/500x500-000000-80-0-0.jpg"
     }
   },
-  "version": "<current version number>"
+  "nowhits": {
+    "live": {
+      "name": "AutoDJ",
+      "avatar": "https://nowhits.co.uk/assets/imgs/nowhits.png"
+    },
+    "listeners": {
+      "total": 5,
+      "unique": "No Data"
+    },
+    "nowplaying": {
+      "artist": "Olly Murs; Flo Rida",
+      "title": "Troublemaker",
+      "cover": "https://e-cdns-images.dzcdn.net/images/cover/2ac5f68932496e902ae25efbe49ebdca/1000x1000-000000-80-0-0.jpg"
+    }
+  },
+  "truckers": {
+    "live": {
+      "name": "",
+      "avatar": "No Data"
+    },
+    "listeners": {
+      "total": 753,
+      "unique": 745
+    },
+    "nowplaying": {
+      "artist": "Karen Harding, Shift K3Y",
+      "title": "The Morning",
+      "cover": "https://az.truckers.fm/api/station/1/art/bb35e05b16e41f297e7f02ab-1611277505.jpg"
+    }
+  },
+  "version": "uWjFSW8x"
 }
 ```
 
