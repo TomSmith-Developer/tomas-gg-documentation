@@ -12,6 +12,13 @@ We plan to add more helpful resources in the future such as a IP address lookup 
 - Deprecated documentation on the main route
 - Removed `https://tomas.gg/api/radio`
 
+### uWjFSW8x - 22nd of January 2021
+
+- Removed Paradise Radio
+- Added Harmony Radio
+- Added NowHits
+- Added TruckersFM
+
 ## Radio Statistics
 
 Tomas.GG has combined all the well-known web-radios and made one API to display all the data. We have a combined route and singular route for all radios.
@@ -23,9 +30,11 @@ Below you can find a list of the current radios on the API:
 - Simulation
 - UpBeat
 - Livida
-- Paradise
 - Simulator Hits
 - Triple Radio
+- Harmony Radio
+- Now Hits
+- Truckers
 
 ::: tip
 If our API is returning `null` or simply not loading, report it to **Tom.#7945** on Discord!
@@ -39,7 +48,7 @@ https://api.tomas.gg/controller?radio=all
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "aqua": {
     "live": {
@@ -191,7 +200,7 @@ https://api.tomas.gg/controller?radio=aqua
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "AutoDJ",
@@ -220,7 +229,7 @@ https://api.tomas.gg/controller?radio=keyfm
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
   "name": null,
@@ -249,7 +258,7 @@ https://api.tomas.gg/controller?radio=simulatorradio
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "RICHIΞ",
@@ -278,7 +287,7 @@ https://api.tomas.gg/controller?radio=simulation
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "",
@@ -307,7 +316,7 @@ https://api.tomas.gg/controller?radio=upbeat
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "Hayleigh",
@@ -336,7 +345,7 @@ https://api.tomas.gg/controller?radio=livida
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "AutoDJ",
@@ -355,35 +364,6 @@ Such route will output the following data:
 }
 ```
 
-### Paradise
-
-Music from Paradise. [itsparadise.net](https://itsparadise.net/?utm_source=tomas.gg)
-
-To review Paradise's statistics, please make a `GET` request to the following:
-```
-https://api.tomas.gg/controller?radio=itsparadise
-```
-
-Such route will output the following data:
-```
-{
-  "live": {
-    "name": null,
-    "avatar": "No Data"
-  },
-  "listeners": {
-    "total": null,
-    "unique": "No Data"
-  },
-  "nowplaying": {
-    "artist": null,
-    "title": null,
-    "cover": null
-  },
-  "version": "<current version number>"
-}
-```
-
 ### Simulator Hits
 
 Simulator Hits, your number one hit Simulation Radio Station. [simulatorhits.com](https://simulatorhits.com/?utm_source=tomas.gg)
@@ -394,7 +374,7 @@ https://api.tomas.gg/controller?radio=simulatorhits
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "AutoDJ",
@@ -423,7 +403,7 @@ https://api.tomas.gg/controller?radio=tripleradio
 ```
 
 Such route will output the following data:
-```
+```json
 {
   "live": {
     "name": "Auto DJ",
@@ -439,5 +419,91 @@ Such route will output the following data:
     "cover": "https://cdns-images.dzcdn.net/images/cover/81572deeede9e5f691e4b1889b828197/500x500-000000-80-0-0.jpg"
   },
   "version": "<current version number>"
+}
+```
+
+### NowHits
+
+NowHits Radio is a Community Based Internet Radio Station. We bring you all the latest Creative Entertainment. [nowhits.radio](https://nowhits.radio/?utm_source=tomas.gg)
+
+To review NowHits' statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=nowhits
+```
+
+Such route will output the following data:
+```json
+{
+  "live": {
+    "name": "AutoDJ",
+    "avatar": "https://nowhits.co.uk/assets/imgs/nowhits.png"
+  },
+  "listeners": {
+    "total": 5,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "Otto Knows",
+    "title": "Million Voices",
+    "cover": "https://e-cdns-images.dzcdn.net/images/cover/01db4281a1368ed66b163c079d8888a5/1000x1000-000000-80-0-0.jpg"
+  },
+  "version": "<current version number>"
+}
+```
+
+### TruckersFM
+
+TruckersFM is the number one hit music station for Trucking Simulators. Radio made for driving, now playing online, in cab and on the go. [truckers.fm](https://truckers.fm/?utm_source=tomas.gg)
+
+To review TruckersFM's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=truckers
+```
+
+Such route will output the following data:
+```json
+{
+  "live": {
+    "name": "",
+    "avatar": "No Data"
+  },
+  "listeners": {
+    "total": 768,
+    "unique": 758
+  },
+  "nowplaying": {
+    "artist": "Little Mix, Machine Gun Kelly",
+    "title": "No More Sad Songs",
+    "cover": "https://az.truckers.fm/api/station/1/art/eabb1b75fcc0b3ec8ca60d59-1602369350.jpg"
+  },
+  "version": "<current version number>"
+}
+```
+
+### Harmony
+
+You give the Harmony to music. [weareharmony.net](https://weareharmony.net/?utm_source=tomas.gg)
+
+To review Harmony's statistics, please make a `GET` request to the following:
+```
+https://api.tomas.gg/controller?radio=harmony
+```
+
+Such route will output the following data:
+```json
+{
+  "live": {
+    "name": "AutoDJ",
+    "avatar": "https://harmony.sirv.com/default.png"
+  },
+  "listeners": {
+    "total": 2,
+    "unique": "No Data"
+  },
+  "nowplaying": {
+    "artist": "Martin Garrix/Justin Mylo/Dewain Whitmore",
+    "title": "Burn Out",
+    "cover": "https://e-cdns-images.dzcdn.net/images/cover/6213ad49270cb83a5c3c4c359a458971/1000x1000-000000-80-0-0.jpg"
+  }
 }
 ```
