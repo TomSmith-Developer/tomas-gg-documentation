@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Tomas.GG Documentation',
+    title: 'TomasSystems Documentation',
     description: 'API & Other documentation for Tomas.GG services.',
     head: [
         ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "https://api.slushie.gg/avatar/683781987726917663?size=256"}],
@@ -10,8 +10,8 @@ module.exports = {
         smoothScroll: true,
         lastUpdated: 'Last Updated',
         nav: [
-            { text: 'Website', link: 'https://tomas.gg'},
-            { text: 'API', link: 'https://api.tomas.gg' },
+            { text: 'Website', link: 'https://tomas.systems'},
+            { text: 'API', link: 'https://api.tomas.systems' },
             { text: 'GitHub', link: 'https://github.com/TomSmith-Developer'}
         ],
         sidebar: {

@@ -1,6 +1,6 @@
 # Application Programming Interface
 
-Tomas.GG has an powerful Application Programming interface (also known as API) which currently provides information such a radio listener counts and the like.
+TomasSystems has an powerful Application Programming interface (also known as API) which currently provides information such a radio listener counts and the like.
 We plan to add more helpful resources in the future such as a IP address lookup tool and many more features.
 
 ## Versioning
@@ -21,7 +21,7 @@ We plan to add more helpful resources in the future such as a IP address lookup 
 
 ## Radio Statistics
 
-Tomas.GG has combined all the well-known web-radios and made one API to display all the data. We have a combined route and singular route for all radios.
+tomas.systems has combined all the well-known web-radios and made one API to display all the data. We have a combined route and singular route for all radios.
 
 Below you can find a list of the current radios on the API:
 - Aqua
@@ -44,7 +44,7 @@ If our API is returning `null` or simply not loading, report it to **Tom.#7945**
 
 To view all the radios and their statistics, you need to make a `GET` request to the following route:
 ```
-https://api.tomas.gg/controller?radio=all
+https://api.tomas.systems/controller?radio=all
 ```
 
 Such route will output the following data:
@@ -222,11 +222,11 @@ Such route will output the following data:
 
 ### Aqua
 
-Aqua is an online radio created by the community for the community. [itsaqua.net](https://itsaqua.net/?utm_source=tomas.gg)
+Aqua is an online radio created by the community for the community. [itsaqua.net](https://itsaqua.net/?utm_source=tomas.systems)
 
 To review Aqua's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=aqua
+https://api.tomas.systems/controller?radio=aqua
 ```
 
 Such route will output the following data:
@@ -251,11 +251,11 @@ Such route will output the following data:
 
 ### KeyFM
 
-KeyFM.net is a non-profit radio community providing music around the globe, all day - every day. [keyfm.net](https://keyfm.net/?utm_source=tomas.gg)
+KeyFM.net is a non-profit radio community providing music around the globe, all day - every day. [keyfm.net](https://keyfm.net/?utm_source=tomas.systems)
 
 To review KeyFM's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=keyfm
+https://api.tomas.systems/controller?radio=keyfm
 ```
 
 Such route will output the following data:
@@ -280,11 +280,11 @@ Such route will output the following data:
 
 ### Simulator Radio
 
-Simulator Radio is a community based radio station for the Simulation Community. [simulatorradio.com](https://simulatorradio.com/?utm_source=tomas.gg)
+Simulator Radio is a community based radio station for the Simulation Community. [simulatorradio.com](https://simulatorradio.com/?utm_source=tomas.systems)
 
 To review Simulator Radio's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=simulatorradio
+https://api.tomas.systems/controller?radio=simulatorradio
 ```
 
 Such route will output the following data:
@@ -309,11 +309,11 @@ Such route will output the following data:
 
 ### Simulation
 
-Simulation.FM is a online radio station that not just on 1 game we base on all other games and we was founded on the 2020 on Steven H. Birthday. [simulation.fm](https://simulation.fm/?utm_source=tomas.gg)
+Simulation.FM is a online radio station that not just on 1 game we base on all other games and we was founded on the 2020 on Steven H. Birthday. [simulation.fm](https://simulation.fm/?utm_source=tomas.systems)
 
 To review Simulation's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=simulation
+https://api.tomas.systems/controller?radio=simulation
 ```
 
 Such route will output the following data:
@@ -338,11 +338,11 @@ Such route will output the following data:
 
 ### UpBeat
 
-UpBeat is a community powered online radio, providing 24/7 ad-free radio entertainment. [upbeatradio.net](https://upbeatradio.net/?utm_source=tomas.gg)
+UpBeat is a community powered online radio, providing 24/7 ad-free radio entertainment. [upbeatradio.net](https://upbeatradio.net/?utm_source=tomas.systems)
 
 To review UpBeats's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=upbeat
+https://api.tomas.systems/controller?radio=upbeat
 ```
 
 Such route will output the following data:
@@ -367,11 +367,11 @@ Such route will output the following data:
 
 ### Livida
 
-The online community for gamers. [livida.net](https://livida.net/?utm_source=tomas.gg)
+The online community for gamers. [livida.net](https://livida.net/?utm_source=tomas.systems)
 
 To review Livida's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=livida
+https://api.tomas.systems/controller?radio=livida
 ```
 
 Such route will output the following data:
@@ -396,11 +396,11 @@ Such route will output the following data:
 
 ### Simulator Hits
 
-Simulator Hits, your number one hit Simulation Radio Station. [simulatorhits.com](https://simulatorhits.com/?utm_source=tomas.gg)
+Simulator Hits, your number one hit Simulation Radio Station. [simulatorhits.com](https://simulatorhits.com/?utm_source=tomas.systems)
 
 To review Simulator Hits' statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=simulatorhits
+https://api.tomas.systems/controller?radio=simulatorhits
 ```
 
 Such route will output the following data:
@@ -425,11 +425,11 @@ Such route will output the following data:
 
 ### Triple Radio
 
-Triple Radio is a small online radio station to power your music needs whenever they are required. [tripleradio.net](https://tripleradio.net/?utm_source=tomas.gg)
+Triple Radio is a small online radio station to power your music needs whenever they are required. [tripleradio.net](https://tripleradio.net/?utm_source=tomas.systems)
 
 To review Triple Radio's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=tripleradio
+https://api.tomas.systems/controller?radio=tripleradio
 ```
 
 Such route will output the following data:
@@ -454,11 +454,11 @@ Such route will output the following data:
 
 ### NowHits
 
-NowHits Radio is a Community Based Internet Radio Station. We bring you all the latest Creative Entertainment. [nowhits.radio](https://nowhits.radio/?utm_source=tomas.gg)
+NowHits Radio is a Community Based Internet Radio Station. We bring you all the latest Creative Entertainment. [nowhits.radio](https://nowhits.radio/?utm_source=tomas.systems)
 
 To review NowHits' statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=nowhits
+https://api.tomas.systems/controller?radio=nowhits
 ```
 
 Such route will output the following data:
@@ -483,11 +483,11 @@ Such route will output the following data:
 
 ### TruckersFM
 
-TruckersFM is the number one hit music station for Trucking Simulators. Radio made for driving, now playing online, in cab and on the go. [truckers.fm](https://truckers.fm/?utm_source=tomas.gg)
+TruckersFM is the number one hit music station for Trucking Simulators. Radio made for driving, now playing online, in cab and on the go. [truckers.fm](https://truckers.fm/?utm_source=tomas.systems)
 
 To review TruckersFM's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=truckers
+https://api.tomas.systems/controller?radio=truckers
 ```
 
 Such route will output the following data:
@@ -512,11 +512,11 @@ Such route will output the following data:
 
 ### Harmony
 
-You give the Harmony to music. [weareharmony.net](https://weareharmony.net/?utm_source=tomas.gg)
+You give the Harmony to music. [weareharmony.net](https://weareharmony.net/?utm_source=tomas.systems)
 
 To review Harmony's statistics, please make a `GET` request to the following:
 ```
-https://api.tomas.gg/controller?radio=harmony
+https://api.tomas.systems/controller?radio=harmony
 ```
 
 Such route will output the following data:
